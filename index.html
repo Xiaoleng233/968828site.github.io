@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+	<script>
+		var baseW = 768;
+		var iOSW = 0;
+		var ua = navigator.userAgent.toLowerCase();
+		var isiOS = (ua.indexOf("iphone") > -1) || (ua.indexOf("ipod") > -1) || (ua.indexOf("ipad") > -1);
+		if(isiOS){
+			iOSW = document.documentElement.clientWidth;
+		}
+		window.addEventListener("resize", updateMetaViewport, false);
+		window.addEventListener("orientationchange", updateMetaViewport, false);
+		var ev = document.createEvent("UIEvent");
+		ev.initEvent("resize", true, true)
+		window.dispatchEvent(ev);
+		function updateMetaViewport(){
+			var viewportContent;
+			var w = window.outerWidth;
+			if(isiOS){
+				w = iOSW;
+			}
+			if(w < baseW){
+				viewportContent = "width=480,initial-scale=" + w/480 + ",user-scalable=yes,shrink-to-fit=no";
+			}else{
+				viewportContent = "width=device-width,initial-scale=1.0,user-scalable=yes,shrink-to-fit=no";
+			}
+			document.querySelector("meta[name='viewport']").setAttribute("content", viewportContent);
+		}
+	</script>
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9" />
+	<meta http-equiv="Pragma" CONTENT="no-cache">
+	<meta http-equiv="Cache-Control" CONTENT="no-cache">
+	<meta http-equiv="Expires" CONTENT="-1">
+	<meta name="robots" content="INDEX, FOLLOW" />
+	<meta name="author" content="(C) SEGA">
+	<meta name="copyright" content="&copy;SEGA">
+	<meta name="description" content="3A大作又怎样？我们厦门公交集团也是一款2B巨作，拥有4M规划、F5配车和G8调度对战匹配机制，不比你们差！">
+	<meta name="keywords" content="舞萌DX,maimai DX,maimai deluxe,sega" />
+	<meta name="theme-color" content="#51bcf3">
+	<meta name="mkd" content="">
+
+	<title>厦门公交截团－错误－</title>
+	<link rel="stylesheet" href="xmbus-mobile/css/common.css%3Fver=1.30%3F20240112.css" />
+<!--
+ここに百度統計のスクリプト追加予定
+-->
+</head>
+<body oncontextmenu="return false;">
+	<div class="wrapper t_c">
+				<a href="xmbus-mobile/index.html"><img src="https://www.xmbus.com/upload/admin/20220427/bfc6132767ff8874d1e74f77e212a80a.png" class="logo p_5"/></a>
+			</div>
+	<div class="wrapper main_wrapper t_c">
+		<header class="f_0">
+					</header>
+
+		
+<img src="xmbus-mobile/img/title_error.png" class="title m_10"/>
+<div class="container_red p_10">
+	<div class="p_5 f_14 ">错误码：968828</div>
+	<img src="xmbus-mobile/img/line_01.png" class="w_396" />
+	<div class="p_5 f_12 gray break">六进失败，请重试。</div>
+		<div >你说的对，但是《六进》是由厦门公交集团有限公司自主研发的一款全新开放世界冒险公交。游戏发生在一个被称作「厦门公交」的幻想世界，在这里，被截团选中的公交车将被授予「社区专线」，导引机动车之力。你将扮演一位名为「意见反馈」的神秘角色，在自由的倒闭班次中邂逅性格各异、能力独特的撤线们，和他们一起降本增笑，找回干线失散的12m——同时，逐步发掘「六进」的意义。
+</div>
+	<img src="linrongsheng.jpg" class="width="300" height="200""/>
+</div>
+
+		<footer class="f_0">
+			<div class="footer_marquee">
+			<div class="footer w_480">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 50" preserveAspectRatio="none" style="height:50px">
+					<path d="M0,0 v25 q5,5 10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 v-25 Z" fill="#7cbc29"></path>
+				</svg>
+				<div class="m_15 m_t_0 f_13">
+					<div class="m_5"><a href="xmbus-mobile/termsOfService/index.html" target="_blank" class="white" rel="noopener">乘车条款</a></div>
+					<div class="m_5"><a href="xmbus-mobile/sitePolicy/index.html" target="_blank" class="white" rel="noopener">截线须知</a></div>
+					<div class="m_5"><a href="xmbus-mobile/liujing/index.html" target="_blank" class="white" rel="noopener">六进政策</a></div>
+					<div class="m_5"><a href="xmbus-mobile/xianludongtai/index.html" target="_blank" class="white" rel="noopener">线路动态</a></div>
+
+				</div>
+				<img src="xmbus-mobile/img/line_02.png" class="w_430 m_b_10" />
+				<div class="f_l m_15 m_l_30 p_l_10">
+					<a href="" target="_blank" rel="noopener"><img src="" /></a>
+					<div class="f_15 p_5">地址: 厦门市思明区莲岳路221号2号楼9-10层 | 邮编 361012 | 厦门公交集团客服热线 : 968828
+©本网页由厦门公交集团独家研发，禁止随意窃取！
+</div>
+				</div>
+				<div class="m_15">
+					<img src="" /></a>
+					<div class="f_11 p_3"><a href="xmbus" style="text-decoration:none; color: #fff" target="_blank" rel="noopener">
+</a>
+</a></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<img id="page-top" src="xmbus-mobile/img/btn_page_top.png" class="pointer">
+	<img id="page-bottom" src="xmbus-mobile/img/btn_page_bottom.png" class="pointer">
+	<script src="xmbus-mobile/js/jquery-3.3.1.min.js"></script>
+	<script>
+		var scrollPoint = $('.scroll_point').length;
+		$('#page-top').click(function () {
+			if (scrollPoint > 0) {
+				var fromPos = Math.floor($(window).scrollTop());
+				var toPos   = 0;
+				$(".scroll_point").each(function() {
+					var targetPos = Math.floor($(this).offset().top);
+					if (location.pathname.split('/').pop() == "updateMusic") {
+						targetPos = targetPos - 284;
+					}
+					if (fromPos > targetPos) {
+						toPos = targetPos;
+					} else {
+						return false;
+					}
+				});
+				$('body,html').animate({scrollTop: toPos}, 500);
+			} else {
+				$('body,html').animate({scrollTop: 0}, 500);
+			}
+			return false;
+		});
+		$('#page-bottom').click(function () {
+			if (scrollPoint > 0) {
+				var fromPos = Math.floor($(window).scrollTop()) + 3;
+				var toPos   = Math.floor($(document).height());
+				$(".scroll_point").each(function() {
+					var targetPos = Math.floor($(this).offset().top);
+					if (location.pathname.split('/').pop() == "updateMusic") {
+						targetPos = targetPos - 284;
+					}
+					if (fromPos < targetPos) {
+						toPos = targetPos;
+						return false;
+					}
+				});
+				$('body,html').animate({scrollTop: toPos}, 500);
+			} else {
+				$('body,html').animate({scrollTop: $(document).height()}, 500);
+			}
+			return false;
+		});
+		function fadeOutPageBtn() {
+			$('#page-top').fadeOut(1500).animate({duration: 'slow', easing: 'linear'});
+			$('#page-bottom').fadeOut(1500).animate({duration: 'slow', easing: 'linear'});
+		}
+				var timeLimit = 3*1000;
+		var timerId = setTimeout(fadeOutPageBtn, timeLimit);
+		$(window).scroll(function() {
+			if (!spmenu_navigation.is(':visible')) spmenu_navigation.css('display', 'block');
+			if (!$('#page-top').is(':visible')) $('#page-top').fadeIn();
+			if (!$('#page-bottom').is(':visible')) $('#page-bottom').fadeIn();
+			clearTimeout(timerId);
+			timerId = setTimeout(fadeOutPageBtn, timeLimit);
+					});
+	</script>
+	</body>
+</html>
